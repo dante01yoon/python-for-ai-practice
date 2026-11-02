@@ -1,0 +1,5 @@
+sentence = input("Sentence: ").strip()
+words = sentence.split()
+print("Words:", len(words))
+print("First:", words[0])
+print("Last:", words[-1])

@@ -1,0 +1,5 @@
+full = input("Full name: ")
+first, last = full.split()
+print(f"Initials: {first[0].upper()}.{last[0].upper()}.")
+print(f"Shouting: {full.upper()}")
+print(f"Letters: {len(first + last)}")
